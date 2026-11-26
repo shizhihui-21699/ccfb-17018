@@ -1,0 +1,16 @@
+{
+  "name": "css-sanitizer",
+  "version": "0.1.0",
+  "description": "Spec-faithful CSS tokenizer/parser/sanitizer for untrusted user stylesheets",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.11",
+    "typescript": "^5.6.0"
+  }
+}
